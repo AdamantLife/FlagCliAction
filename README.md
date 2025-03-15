@@ -82,4 +82,4 @@ parser.parse_args(["-ma",]).mycondiments
 
 * If adding `FlagActions` individually, `Flags` from different `FlagTypes` must be assigned to different `dest` (Namespace attributes). `A.foo | B.bar` would raise a `TypeError`.
 
-* Historical note- Originally I wrote this as a simple howto for implementing an `Action` subclass to handle `Flags` and showing a couple of different patterns for working with them. After working with them more I decided to reorganize the class as an actual module with a higher-level interface. I'm pretty sure I cleared out all the anachronisms, but if I missed anything that seems to have been orphaned from the original project, let me know.
+* *Historical note*- Originally I wrote this as a simple howto for implementing an `Action` subclass to handle `Flags` and showing a couple of different patterns for working with them. After using them more I decided to reorganize the repository as an actual module with a higher-level interface. I'm pretty sure I cleared out all the anachronisms, but if you see anything that seems to have been orphaned from the original project, let me know.
