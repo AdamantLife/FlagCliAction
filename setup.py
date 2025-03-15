@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="FlagCliAction",
-    version="0.1.0",
+    version="1.0.0",
     author="AdamantLife",
     author_email="contact.adamantmedia@gmail.com",
-    description="Provides an Action Type for handling enum.Flag values in argparse",
+    description="Provides a framework for using enum Flags with the argparse module",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AdamantLife/FlagCliAction",
